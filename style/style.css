@@ -43,6 +43,10 @@ section#icones{
     padding: 30px;
 }
 
+section#icones a {
+    display: inline-block;
+}
+
 section#icones img{
     width: 60px;
     border-radius: 50%;
