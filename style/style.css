@@ -37,14 +37,12 @@ iframe#tela {
 }
 
 section#icones{
-    display:  flex;
-    flex-direction:  column;
     text-align: right;
     padding: 30px;
 }
 
 section#icones a {
-    display: inline-block;
+   text-align: right;
 }
 
 section#icones img{
