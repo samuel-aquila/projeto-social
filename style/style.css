@@ -39,7 +39,8 @@ iframe#tela {
 section#icones{
     text-align: right;
     padding: 30px;
-    position: fixed;
+    position: relative;
+    align-items: right;
 }
 
 section#icones a {
@@ -51,10 +52,12 @@ section#icones img{
     border-radius: 50%;
     margin: 6px;
     box-sizing: border-box;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.533);
 }
 
 section#icones img:hover {
     border: 3px solid rgb(255, 255, 255);
     transition-duration: 0.2s;
     transform: translate(-4px, -4px);
+    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.533);
 }
