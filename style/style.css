@@ -39,6 +39,7 @@ iframe#tela {
 section#icones{
     text-align: right;
     padding: 30px;
+    position: fixed;
 }
 
 section#icones a {
